@@ -2,8 +2,6 @@
 
 Use a transition to scale the button when you hover your mouse over it.
 
-## Desired Outcome
-
 
 ### Self Check
 - Does the button grow when you hover it?
