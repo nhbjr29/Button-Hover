@@ -1,0 +1,30 @@
+#transition-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow; /* to see the scope of the container div*/
+    display: flex;
+}
+
+/*button*/
+button{
+    border-radius: 8px;
+    border:none;
+    background-color: #2563eb;
+    color: white;
+    font-size: 18px;
+    padding: 2px 12px;
+    text-align: center;
+}
+button {
+    transition: transform .4s ease-in-out;
+    
+  }
+  /* Psedo code that I will learn on while I continue this journey 2/2/2023*/
+button:hover {
+  transform: scale(1.2)
+}
+
